@@ -8,7 +8,7 @@
 
 import UIKit
 import BDBOAuth1Manager
-
+import Alamofire
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 

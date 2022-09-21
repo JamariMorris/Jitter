@@ -8,7 +8,7 @@
 
 import UIKit
 import BDBOAuth1Manager
-
+import Alamofire
 class TwitterAPICaller: BDBOAuth1SessionManager {    
     static let client = TwitterAPICaller(baseURL: URL(string: "https://api.twitter.com"), consumerKey: "VKg9Q30Fnjm4BQEZLvrfXeCWT", consumerSecret: "bSBWlomcjOB0Nc9DDkA6MlSClP0uSywK66mHWt38K3ZiRTuDjH")
     var loginSuccess: (() -> ())?
